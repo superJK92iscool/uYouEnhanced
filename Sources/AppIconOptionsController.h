@@ -16,7 +16,7 @@
 
 + (UIImage *)customBackButtonImage {
     NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"uYouPlus" ofType:@"bundle"]];
-    return [UIImage imageNamed:@"Back.png" inBundle:bundle compatibleWithTraitCollection:nil];
+    return [UIImage imageNamed:@"Rainbow.png" inBundle:bundle compatibleWithTraitCollection:nil];
 }
 
 @end
