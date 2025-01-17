@@ -60,7 +60,7 @@ jobs:
 
     steps:
       - name: Checkout Main
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v4.2.1
         with:
           path: main
           ref: ${{ github.event.inputs.commit_id || github.ref }}
@@ -102,7 +102,7 @@ jobs:
           THEOS: ${{ github.workspace }}/theos
 
       - name: Setup Theos Jailed
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v4.2.1
         with:
           repository: qnblackcat/theos-jailed
           ref: master
