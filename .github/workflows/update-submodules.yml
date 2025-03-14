@@ -26,6 +26,8 @@ jobs:
           git add .
           git submodule update --init --recursive --remote Tweaks/protobuf
           git add .
+          git submodule update --init --recursive --remote Tweaks/PSHeader
+          git add .
           git submodule update --init --recursive --remote Tweaks/Return-YouTube-Dislikes
           git add .
           git submodule update --init --recursive --remote Tweaks/uYouLocalization
@@ -40,6 +42,8 @@ jobs:
           git add .
           git submodule update --init --recursive --remote Tweaks/YouQuality
           git add .
+          git submodule update --init --recursive --remote Tweaks/YouSlider
+          git add .
           git submodule update --init --recursive --remote Tweaks/YouSpeed
           git add .
           git submodule update --init --recursive --remote Tweaks/YouTimeStamp
@@ -53,8 +57,6 @@ jobs:
           git submodule update --init --recursive --remote Tweaks/YTHoldForSpeed
           git add .
           git submodule update --init --recursive --remote Tweaks/YTIcons
-          git add .
-          git submodule update --init --recursive --remote Tweaks/YTSpeed
           git add .
           git submodule update --init --recursive --remote Tweaks/YTUHD
           git add .

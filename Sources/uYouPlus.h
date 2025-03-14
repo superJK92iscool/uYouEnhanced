@@ -1,3 +1,4 @@
+#import <ActivityKit/ActivityKit.h> 
 #import <UIKit/UIKit.h>
 #import <HBLog.h>
 #import <Foundation/Foundation.h>
@@ -33,6 +34,7 @@
 #import <YouTubeHeader/YTIMenuConditionalServiceItemRenderer.h>
 #import <YouTubeHeader/YTInnerTubeCollectionViewController.h>
 #import <YouTubeHeader/YTInlinePlayerBarContainerView.h>
+#import <YouTubeHeader/YTIShelfRenderer.h>
 #import <YouTubeHeader/YTBrowseViewController.h>
 #import <YouTubeHeader/YTIPivotBarItemRenderer.h>
 #import <YouTubeHeader/YTIPivotBarRenderer.h>
@@ -320,10 +322,7 @@ static NSString *const kGoogleSigninFix = @"googleSigninFix_enabled";
 @end
 
 // MLPlayerStickySettings Header has been moved to https://github.com/arichornloverALT/YouTubeHeader/blob/main/MLPlayerStickySettings.h
-
-@interface MLPlayerEventCenter : NSObject
-- (void)broadcastRateChange:(float)rate;
-@end
+// MLPlayerEventCenter Header has been moved to https://github.com/PoomSmart/YouTubeHeader/blob/main/MLPlayerEventCenter.h
 
 @interface HAMPlayerInternal : NSObject
 - (void)setRate:(float)rate;
